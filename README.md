@@ -71,10 +71,13 @@ These concepts align with the Java OOP topics covered in the course syllabus.
 
 ```text
 Campus-Lost-Found-Matcher/
-│
+├── Item.java
+├── LostFoundManager.java
 ├── Main.java
+├── MatchEngine.java
+├── ReportGenerator.java
 ├── README.md
-└── items.txt
+└── statement.md
 ```
 
 `items.txt` is created automatically when data is saved.
@@ -90,25 +93,7 @@ Campus-Lost-Found-Matcher/
 Clone the repository:
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-```
-
-Open the project directory:
-
-```bash
-cd Campus-Lost-Found-Matcher
-```
-
-Compile:
-
-```bash
-javac Main.java
-```
-
-Run:
-
-```bash
-java Main
+git clone https://github.com/Swati12-coding/LostFound-Java.git
 ```
 
 ## 11. Testing
